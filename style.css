@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Monteserrat:500');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root {
+    position: relative;
+    background: linear-gradient(-70deg, #e92626, #fd31af, #f7a902);
+    background-size: 400% 400%;
+    animation: background-gradient-meow 64s ease infinite;
+    height: 100vh;
+}
+
+@keyframes background-gradient-meow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.pfp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.avatar {
+    border: 8px solid rgba(55, 0, 255, 0.329);
+    border-radius: 50%;
+}
+
+li, a, button {
+  font-family: "Monteserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20;
+  color: #edf0f1;
+  text-decoration: none;
+
+}
+
+button {
+  margin-left: -8px;
+  margin-top: 2px;
+  padding: 0px 25px;
+  background-color: #00000000;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover{
+  color:#ffea01;
+  background-color: #db4b4b;
+}
+
+header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav-links {
+  list-style: none;
+  margin-left: 100px;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px
+}
+
+.nav-links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+  color:#ffea01;
+  font-weight: 750;
+
+}
+
+.logo {
+  margin-right: auto;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 40;
+  color: #edf0f1;
+  text-decoration: none;
+  margin-left: -9%;
+  margin-top: 0%;
+}
+
+.about-me{
+  padding: 0% 25%;
+  color: #edf0f1;
+  margin-top: -1%;
+}
+
+.headliner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 15%;
+  color: #edf0f1;
+
+}
